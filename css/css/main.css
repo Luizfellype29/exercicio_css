@@ -1,0 +1,134 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+body > header{
+    background-color: gray;
+    padding: 16px 0;
+    color: rgb(250, 247, 247);
+}
+header .conteiner {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+#esportes,
+#economy,
+#entreteriment,
+#tecnology{
+    padding-left:100px ;
+    padding-right:100px;
+}
+header li{
+    display:inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    margin-left: 16px;
+}
+header li a{
+    color: #f5f6fa;
+    text-decoration: none;
+}
+.conteiner{
+    width: 1366;
+    margin: 0 auto;
+}
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.articles article img{
+    width: 100%;
+}
+.articles article{
+    width: 30%;
+}
+section{
+    padding: 16px 0;
+}
+section h2,
+.articles article{
+    margin-bottom: 16px;
+}
+.articles article h3{
+    margin-top: 8px;
+    margin-bottom:8px;
+}
+.articles article a{
+    background-color: blue;
+    color: #ffffff;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 700;
+    margin-top: 8px;
+}
+.articles article a:hover{
+    text-decoration: underline;
+}
+.articles article p,
+.articles article a{
+    font-family:Arial, Helvetica, sans-serif
+}
+.articles article h3{
+    font-size: 24px;
+}
+section h2{
+    font-size:50px;
+}
+#esportes{
+    background-color: rgba(0,255, 0, 0.1) ;
+}
+#esportes .articles article a {
+    background-color: rgba(0,255, 0, 0.8);
+    color: #000;
+}
+#economy {
+    background-color: #faf9bb;
+}
+#economy .articles article a{
+    background-color: #ff9f1a;
+    color: #000;
+}
+h1{
+    font-size: 40px;
+    text-transform: uppercase ;
+}
+.conteiner{
+    width: 80%;
+    max-width: 1366px;
+    margin: 0 auto;
+}
+.tecnologia img,.entreterimento img{
+    width: 30%;
+    height: 250px;
+}
+#tecnology{
+    background-color: #f7b0b0;
+}
+#entreteriment{
+    background-color: #bbc7ee;
+}
+#tecnology .articles article a{
+    background-color: red;
+    color: #000;
+}
+#entreteriment .articles article a {
+    color: #000;
+}
+.esp:hover:hover{
+    text-decoration: underline;
+}
+.eco:hover:hover{
+        text-decoration: underline;
+}
+.entr:hover:hover{
+    text-decoration: underline;
+}
+.tec:hover:hover{
+    text-decoration: underline;
+}
